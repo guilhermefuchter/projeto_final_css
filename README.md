@@ -1,5 +1,3 @@
-# projeto_final_css
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -17,21 +15,21 @@
 
     .container {
         max-width: 800px;
-        margin: 20px auto;
+        margin: 10px auto;
         padding: 20px;
-        background-color: #837878;
+        background-color: gray;
         border-radius: 8px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        max-height: 1000px;
     }
-    h1, h2, h3 {
+    h1, h2 {
         margin-bottom: 10px;
     }
     p {
         margin: 5px 0;
     }
-    .section {
-        margin-bottom: 20px;
-    }
+  
+    
     .skills {
         margin-top: 10px;
     }
@@ -39,27 +37,27 @@
         display: inline-block;
         background-color: #007bff;
         color: #fff;
-        padding: 5px 10px;
+        padding: 1px 1px;
         margin-right: 5px;
         border-radius: 5px;
     }
-    .experience, .education {
-        margin-top: 20px;
-    }
-    .experience h3, .education h3 {
-        margin-bottom: 5px;
-    }
-    .experience p, .education p {
-        margin: 5px 0;
+    
+
+
+    
+
+    .foto{margin-left: 700px; width: 100px; height:150px;background-color:red;float: right
 
 
     }
+    .tudo{ margin-left: 1px; }
 
-    .foto{margin-left: 600px;
 
+    .sectionex{background-color:gray; width:500px;height:300px;text-align:initial;float:left}
 
-    }
-    .tudo{margin top: 190px;}
+   
+
+    .projetos{float:left; background-color: aquamarine;}
 
 
     
@@ -75,11 +73,12 @@
         <p>Desenvolvedor Front-end</p>
         <p>Contato: adamkeyes@example.com | Telefone: (123) 456-7890 | Localização: Cidade, País</p>
         <div class="foto">
-        <img src="https://adamkeyes-portfolio.vercel.app/assets/images/image-profile-desktop.webp" height="180px" width="100px"></img> </div>
+        <img src="https://adamkeyes-portfolio.vercel.app/assets/images/image-profile-desktop.webp" height="180px" width="120px"></img> </div>
     </div>
 
     <div class="tudo">
-    <div class="section experience">
+    <div class="sectionex"> 
+        
         <h3>Experiência Profissional</h3>
         <p><strong>Desenvolvedor Front-end</strong></p>
         <p>Empresa ABC - Cidade, País</p>
@@ -107,7 +106,14 @@
        <li>Git</li>
     </div>
     <div class="Projetos"><h1>Projects</h1>
-    <img src="https://neilpatel.com/wp-content/uploads/2023/06/Best_landing_pages3-700x397.jpg"></img></div></div>
+    <img src="https://neilpatel.com/wp-content/uploads/2023/06/Best_landing_pages3-700x397.jpg"width="400px" height="260px"></img></div></div>
+   
+
+
+
+
 </div>
+
+
 </body>
 </html>
